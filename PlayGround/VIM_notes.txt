@@ -1,0 +1,29 @@
+- VIM auto starts up in command mode
+- To edit a file you need to go into insert mode by pressing i + enter
+- To exit insert mode and go back to command mode you just press ESC key
+- To save(Write) file changes to disk command :w (Only in command mode)
+- To save and exit VIM :wq
+- To just exit without saving :q
+- To exit and cancel changes: q!
+- To display line number :set number
+- To turn off line number :set nonumber
+- In command mode type 'gg' to jump to top of the file
+- In command mode type 'G' to jump to the bottom of the file
+- In command mode jump to a specific line number '[line number]G'
+- To cut line 'dd'
+- To cut a number of lines '[number of lines]dd'
+- To paste 'p'
+- to search for keyword '/wordTosearch' + enter
+- to go to the new search word press n, go to previous type N
+- To select multiple lines and edit or delete you type 'v' in command mode
+- Change default settings in VIM
+	Type command vi ~/.vimrc
+	These are my following default edits
+	- syntax on 
+	- set number
+	- colorscheme desert
+	- set tabstop=4
+
+- Open multiple documents at once
+	vim -O file1 file2 filex..
+	press 'Ctrl + w' to switch to next file you want to edit

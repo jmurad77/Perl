@@ -1,0 +1,20 @@
+- search for word in a file that is case insensitive
+grep -i "UNix" geekfile.txt
+
+- Display count of nuber of matches
+grep -c "unix" geekfile.txt
+
+- Display file names that matches the pattern
+grep -l "unit" *
+
+- show Line number while displaying the output
+grep -n "unix" geekfile.txt
+
+- Display lines that do NOT match pattern with -v, the -n shows the line numbers
+grep -n -v "unix" geekfile.txt
+
+- Matches the lines that start with a string
+grep "^unix" geekfile.txt
+
+- Match the lines that end with a string
+grep "os$" geekfile.txt
